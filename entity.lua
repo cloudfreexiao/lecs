@@ -17,11 +17,7 @@ end
 ---@public
 ---@param comp Component
 function Entity:AddComponent(comp)
-    -- TODO:
-    -- if not comp:isInstanceOf(Component) then
-    --     Log.e("comp is not an instance of Comp")
-    --     return
-    -- end
+    assert(comp:isInstComponent(), comp)
 
     self[comp.__cname] = comp
     self._comps[comp.__cname] = 1
