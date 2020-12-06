@@ -1,7 +1,7 @@
-local fecs = require("fecs.init")
-local Component = fecs.Component
-local System = fecs.System
-local World = fecs.World
+local lecs = require("lecs.init")
+local Component = lecs.Component
+local System = lecs.System
+local World = lecs.World
 
 local PlayerComponent = class("PlayerComponent", Component)
 function PlayerComponent:ctor(...)

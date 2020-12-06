@@ -1,5 +1,5 @@
-local TinyECS = require("fecs.tiny_ecs")
-local Filter = require("fecs.filter")
+local TinyECS = require("lecs.tiny_ecs")
+local Filter = require("lecs.filter")
 
 ---@class System
 ---@field protected filter Filter

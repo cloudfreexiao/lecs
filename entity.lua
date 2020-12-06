@@ -1,4 +1,4 @@
-local Component = require("fecs.component")
+local Component = require("lecs.component")
 
 ---@class Entity
 ---@field public id number

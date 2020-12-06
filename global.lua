@@ -1,5 +1,5 @@
-local Pool = require("fecs.pool")
-local Entity = require("fecs.entity")
+local Pool = require("lecs.pool")
+local Entity = require("lecs.entity")
 
 ---@class Global
 ---@field private _entityPool Pool

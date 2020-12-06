@@ -1,4 +1,4 @@
-local TinyECS = require("fecs.tiny_ecs")
+local TinyECS = require("lecs.tiny_ecs")
 
 ---@class Filter
 local Filter = {}

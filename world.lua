@@ -1,5 +1,5 @@
-local Global = require("fecs.global")
-local TinyECS = require("fecs.tiny_ecs")
+local Global = require("lecs.global")
+local TinyECS = require("lecs.tiny_ecs")
 
 ---@class World
 ---@field private _world table
